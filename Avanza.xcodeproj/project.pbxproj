@@ -14,6 +14,8 @@
 		75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */; };
 		75F19FC51F05B879000A4983 /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F19FC31F05B849000A4983 /* RevealServer.framework */; };
 		75F19FC61F05B879000A4983 /* RevealServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75F19FC31F05B849000A4983 /* RevealServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75F19FC91F067869000A4983 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FC81F067869000A4983 /* NavigationController.swift */; };
+		75F19FCF1F068504000A4983 /* OrdersAndTradesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		75F19FBB1F05B844000A4983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F19FBD1F05B844000A4983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75F19FC31F05B849000A4983 /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = ../../RevealServer.framework; sourceTree = "<group>"; };
+		75F19FC81F067869000A4983 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersAndTradesButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 			children = (
 				75F19FB11F05B844000A4983 /* AppDelegate.swift */,
 				75F19FB31F05B844000A4983 /* ViewController.swift */,
+				75F19FC81F067869000A4983 /* NavigationController.swift */,
 				75F19FB51F05B844000A4983 /* Main.storyboard */,
+				75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */,
 				75F19FB81F05B844000A4983 /* Assets.xcassets */,
 				75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */,
 				75F19FBD1F05B844000A4983 /* Info.plist */,
@@ -156,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F19FB41F05B844000A4983 /* ViewController.swift in Sources */,
+				75F19FC91F067869000A4983 /* NavigationController.swift in Sources */,
 				75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */,
+				75F19FCF1F068504000A4983 /* OrdersAndTradesButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
