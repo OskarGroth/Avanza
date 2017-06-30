@@ -17,19 +17,20 @@ class AccountsAndPossessionsPagedVC: UIPageViewController, UIPageViewControllerD
                 self.createViewController("TransactionsVC")]
     }()
     
+    lazy var scrollView: UIScrollView = self.view.subviews.filter({$0.isKind(of: UIScrollView.self)}).first as! UIScrollView
+    lazy var pageControl: PageControl = PageControl(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 48))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         dataSource = self
-        if let firstViewController = orderedViewControllers.first {
-            setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
-        }
-        let pageControl = PageControl(frame: CGRect(x: 0, y: 0, width: 320, height: 48))
-        view.addSubview(pageControl)
-        let scrollView = view.subviews.filter({$0.isKind(of: UIScrollView.self)}).first!
-        scrollView.backgroundColor = UIColor.blue
-        let heightConstraint = NSLayoutConstraint(item: scrollView, attribute: .top, relatedBy: .equal, toItem: pageControl, attribute: .bottom, multiplier: 1, constant: 0)
-        view.addConstraint(heightConstraint)
-        
+        setViewControllers([orderedViewControllers.first!], direction: .forward, animated: true, completion: nil)
+        scrollView.backgroundColor = UIColor.red.withAlphaComponent(0.2)
+        scrollView.superview?.addSubview(pageControl)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        scrollView.frame = CGRect(x: 0, y: pageControl.bounds.height, width: view.bounds.width, height: view.bounds.height - pageControl.bounds.height)
     }
     
     private func createViewController(_ id: String) -> UIViewController {
