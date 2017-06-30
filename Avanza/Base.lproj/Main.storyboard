@@ -1,26 +1,128 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jMk-Td-Xiv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Bevakningar-->
+        <scene sceneID="8VV-jD-Bce">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Bevakningar" id="pej-cQ-fqb" userLabel="Bevakningar" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="Lqw-i9-GWK"/>
+                        <viewControllerLayoutGuide type="bottom" id="SqM-e1-7xl"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ZBe-ag-feB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Bevakningar" id="ZwO-57-8nn"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VRW-X5-1eV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-356" y="-200"/>
+        </scene>
+        <!--Mitt innehav-->
+        <scene sceneID="Qrg-n9-BMn">
+            <objects>
+                <viewController title="Mitt innehav" id="LFq-nu-eS9" userLabel="Mitt innehav" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aeS-PX-OXx"/>
+                        <viewControllerLayoutGuide type="bottom" id="oco-za-DIJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jCC-lU-cLa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mitt innehav" id="tvd-JS-adr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5D-WL-r0A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1089" y="-200"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Zqy-zQ-NHe">
+            <objects>
+                <tabBarController id="jMk-Td-Xiv" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="sOK-JO-Geq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LFq-nu-eS9" kind="relationship" relationship="viewControllers" id="Rpg-tO-bwU"/>
+                        <segue destination="pej-cQ-fqb" kind="relationship" relationship="viewControllers" id="M24-TO-F3a"/>
+                        <segue destination="pvs-Yg-4Ic" kind="relationship" relationship="viewControllers" id="dwe-uu-akT"/>
+                        <segue destination="h2a-LA-OwU" kind="relationship" relationship="viewControllers" id="nOq-If-XC7"/>
+                        <segue destination="bbh-a5-YUA" kind="relationship" relationship="viewControllers" id="R2G-wS-pN8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBQ-4I-1nx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="-1044"/>
+        </scene>
+        <!--Marknaden-->
+        <scene sceneID="xOe-dO-snL">
+            <objects>
+                <viewController title="Marknaden" id="pvs-Yg-4Ic" userLabel="Marknaden" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Vu-WM-80z"/>
+                        <viewControllerLayoutGuide type="bottom" id="c7i-NX-sVw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="87r-FE-Dsb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Marknaden" id="ndU-kA-Ln4" userLabel="Marknaden"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nfb-aA-SKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="-200"/>
+        </scene>
+        <!--Utforska-->
+        <scene sceneID="XHt-td-GHG">
+            <objects>
+                <viewController title="Utforska" id="h2a-LA-OwU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CxW-hQ-UNd"/>
+                        <viewControllerLayoutGuide type="bottom" id="phL-aJ-9Ly"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wqG-VF-Lm3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Utforska" id="oEm-vs-tW4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qok-5F-ste" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1130" y="-200"/>
+        </scene>
+        <!--Mer-->
+        <scene sceneID="83n-1N-2G9">
+            <objects>
+                <viewController title="Mer" id="bbh-a5-YUA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TCb-Jp-Pmc"/>
+                        <viewControllerLayoutGuide type="bottom" id="nso-CX-YaN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qa7-7z-DBG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mer" id="YD7-BA-8rM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4TZ-QL-QJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1850" y="-200"/>
         </scene>
     </scenes>
 </document>
