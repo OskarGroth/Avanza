@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FB11F05B844000A4983 /* AppDelegate.swift */; };
-		75F19FB41F05B844000A4983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FB31F05B844000A4983 /* ViewController.swift */; };
 		75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FB81F05B844000A4983 /* Assets.xcassets */; };
 		75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */; };
 		75F19FC51F05B879000A4983 /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F19FC31F05B849000A4983 /* RevealServer.framework */; };
@@ -16,6 +15,14 @@
 		75F19FC91F067869000A4983 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FC81F067869000A4983 /* NavigationController.swift */; };
 		75F19FCF1F068504000A4983 /* OrdersAndTradesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */; };
 		75F19FD11F069134000A4983 /* OrdersAndTradesButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */; };
+		75F19FD61F06BAB7000A4983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FD51F06BA1F000A4983 /* Main.storyboard */; };
+		75F19FD81F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FD71F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift */; };
+		75F19FDA1F06BC8D000A4983 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FD91F06BC8D000A4983 /* PageControl.swift */; };
+		75F19FDC1F06BC9B000A4983 /* PageControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FDB1F06BC9B000A4983 /* PageControl.xib */; };
+		75F19FDE1F06BD91000A4983 /* AccountOverviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */; };
+		75F19FE01F06C96E000A4983 /* PositionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FDF1F06C96E000A4983 /* PositionsVC.swift */; };
+		75F19FE21F06C9EC000A4983 /* NewsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FE11F06C9EC000A4983 /* NewsListVC.swift */; };
+		75F19FE41F06CA23000A4983 /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FE31F06CA23000A4983 /* TransactionsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +42,6 @@
 /* Begin PBXFileReference section */
 		75F19FAE1F05B844000A4983 /* Avanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F19FB11F05B844000A4983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75F19FB31F05B844000A4983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75F19FB81F05B844000A4983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F19FBB1F05B844000A4983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F19FBD1F05B844000A4983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +50,13 @@
 		75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersAndTradesButton.swift; sourceTree = "<group>"; };
 		75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersAndTradesButton.xib; sourceTree = "<group>"; };
 		75F19FD51F06BA1F000A4983 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		75F19FD71F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsAndPossessionsPagedVC.swift; sourceTree = "<group>"; };
+		75F19FD91F06BC8D000A4983 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		75F19FDB1F06BC9B000A4983 /* PageControl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControl.xib; sourceTree = "<group>"; };
+		75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewVC.swift; sourceTree = "<group>"; };
+		75F19FDF1F06C96E000A4983 /* PositionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsVC.swift; sourceTree = "<group>"; };
+		75F19FE11F06C9EC000A4983 /* NewsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVC.swift; sourceTree = "<group>"; };
+		75F19FE31F06CA23000A4983 /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				75F19FD51F06BA1F000A4983 /* Main.storyboard */,
+				75F19FE31F06CA23000A4983 /* TransactionsVC.swift */,
+				75F19FDF1F06C96E000A4983 /* PositionsVC.swift */,
+				75F19FE11F06C9EC000A4983 /* NewsListVC.swift */,
+				75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */,
+				75F19FD71F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift */,
 				75F19FB11F05B844000A4983 /* AppDelegate.swift */,
-				75F19FB31F05B844000A4983 /* ViewController.swift */,
 				75F19FC81F067869000A4983 /* NavigationController.swift */,
 				75F19FD21F06B9A5000A4983 /* View Components */,
 				75F19FB81F05B844000A4983 /* Assets.xcassets */,
@@ -93,8 +110,10 @@
 		75F19FD21F06B9A5000A4983 /* View Components */ = {
 			isa = PBXGroup;
 			children = (
-				75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */,
 				75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */,
+				75F19FD91F06BC8D000A4983 /* PageControl.swift */,
+				75F19FDB1F06BC9B000A4983 /* PageControl.xib */,
+				75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */,
 			);
 			path = "View Components";
 			sourceTree = "<group>";
@@ -161,6 +180,8 @@
 				75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */,
 				75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */,
 				75F19FD11F069134000A4983 /* OrdersAndTradesButton.xib in Resources */,
+				75F19FD61F06BAB7000A4983 /* Main.storyboard in Resources */,
+				75F19FDC1F06BC9B000A4983 /* PageControl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F19FB41F05B844000A4983 /* ViewController.swift in Sources */,
+				75F19FDE1F06BD91000A4983 /* AccountOverviewVC.swift in Sources */,
+				75F19FD81F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift in Sources */,
+				75F19FE41F06CA23000A4983 /* TransactionsVC.swift in Sources */,
+				75F19FDA1F06BC8D000A4983 /* PageControl.swift in Sources */,
 				75F19FC91F067869000A4983 /* NavigationController.swift in Sources */,
+				75F19FE01F06C96E000A4983 /* PositionsVC.swift in Sources */,
+				75F19FE21F06C9EC000A4983 /* NewsListVC.swift in Sources */,
 				75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */,
 				75F19FCF1F068504000A4983 /* OrdersAndTradesButton.swift in Sources */,
 			);

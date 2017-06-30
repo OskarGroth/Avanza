@@ -68,6 +68,41 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="276" y="48"/>
         </view>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="gA1-xX-iQ3">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeH-bb-jdM">
+                    <rect key="frame" x="30" y="-8" width="59" height="48"/>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="ÖVERSIKT"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0b-tb-Avc">
+                    <rect key="frame" x="178" y="-8" width="85" height="48"/>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="VÄRDEPAPPER"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIj-mA-xh3">
+                    <rect key="frame" x="104" y="-8" width="72" height="48"/>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="HÄNDELSER"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="pmi-WE-oVp">
+                    <rect key="frame" x="289" y="-8" width="56" height="48"/>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="NYHETER"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="pmi-WE-oVp" firstAttribute="centerX" secondItem="N0b-tb-Avc" secondAttribute="centerX" id="Cf1-Qs-Kbh"/>
+                <constraint firstItem="lIj-mA-xh3" firstAttribute="centerX" secondItem="N0b-tb-Avc" secondAttribute="centerX" id="Mwa-mq-vTH"/>
+                <constraint firstItem="FeH-bb-jdM" firstAttribute="centerX" secondItem="N0b-tb-Avc" secondAttribute="centerX" id="Wf3-A4-Jrs"/>
+            </constraints>
+        </scrollView>
     </objects>
     <resources>
         <image name="orders-and-trades-lightning" width="24" height="36"/>
