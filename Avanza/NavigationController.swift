@@ -12,8 +12,7 @@ class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        navigationBar.items?.first?.rightBarButtonItem = UIBarButtonItem(customView: OrdersAndTradesButton(frame: CGRect(x: 0, y: 0, width: 70, height: 50)))
     }
 
     override func didReceiveMemoryWarning() {

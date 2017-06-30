@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FB11F05B844000A4983 /* AppDelegate.swift */; };
 		75F19FB41F05B844000A4983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FB31F05B844000A4983 /* ViewController.swift */; };
-		75F19FB71F05B844000A4983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FB51F05B844000A4983 /* Main.storyboard */; };
 		75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FB81F05B844000A4983 /* Assets.xcassets */; };
 		75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */; };
 		75F19FC51F05B879000A4983 /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F19FC31F05B849000A4983 /* RevealServer.framework */; };
 		75F19FC61F05B879000A4983 /* RevealServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75F19FC31F05B849000A4983 /* RevealServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75F19FC91F067869000A4983 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FC81F067869000A4983 /* NavigationController.swift */; };
 		75F19FCF1F068504000A4983 /* OrdersAndTradesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */; };
+		75F19FD11F069134000A4983 /* OrdersAndTradesButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,13 +36,14 @@
 		75F19FAE1F05B844000A4983 /* Avanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F19FB11F05B844000A4983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F19FB31F05B844000A4983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		75F19FB61F05B844000A4983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75F19FB81F05B844000A4983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F19FBB1F05B844000A4983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F19FBD1F05B844000A4983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75F19FC31F05B849000A4983 /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = ../../RevealServer.framework; sourceTree = "<group>"; };
 		75F19FC81F067869000A4983 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersAndTradesButton.swift; sourceTree = "<group>"; };
+		75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersAndTradesButton.xib; sourceTree = "<group>"; };
+		75F19FD51F06BA1F000A4983 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +77,26 @@
 		75F19FB01F05B844000A4983 /* Avanza */ = {
 			isa = PBXGroup;
 			children = (
+				75F19FD51F06BA1F000A4983 /* Main.storyboard */,
 				75F19FB11F05B844000A4983 /* AppDelegate.swift */,
 				75F19FB31F05B844000A4983 /* ViewController.swift */,
 				75F19FC81F067869000A4983 /* NavigationController.swift */,
-				75F19FB51F05B844000A4983 /* Main.storyboard */,
-				75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */,
+				75F19FD21F06B9A5000A4983 /* View Components */,
 				75F19FB81F05B844000A4983 /* Assets.xcassets */,
 				75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */,
 				75F19FBD1F05B844000A4983 /* Info.plist */,
 				75F19FC31F05B849000A4983 /* RevealServer.framework */,
 			);
 			path = Avanza;
+			sourceTree = "<group>";
+		};
+		75F19FD21F06B9A5000A4983 /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */,
+				75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */,
+			);
+			path = "View Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +160,7 @@
 			files = (
 				75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */,
 				75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */,
-				75F19FB71F05B844000A4983 /* Main.storyboard in Resources */,
+				75F19FD11F069134000A4983 /* OrdersAndTradesButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,14 +181,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		75F19FB51F05B844000A4983 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75F19FB61F05B844000A4983 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
