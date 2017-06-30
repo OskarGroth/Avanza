@@ -2,4 +2,4 @@
 Reimplementation of the Avanza mobile client.
 
 
-![Sketch](/screenshot.png | width=523)
+![Sketch](/screenshot.png){:height="50%" width="50%"}
