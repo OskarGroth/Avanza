@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7539141A1F079B8900710C38 /* AccountOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753914181F079B8900710C38 /* AccountOverviewTableViewCell.swift */; };
+		7539141B1F079B8900710C38 /* AccountOverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753914191F079B8900710C38 /* AccountOverviewTableViewCell.xib */; };
+		7539141E1F079BA100710C38 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539141C1F079BA100710C38 /* AccountTableViewCell.swift */; };
+		7539141F1F079BA100710C38 /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7539141D1F079BA100710C38 /* AccountTableViewCell.xib */; };
+		753914211F07A2F400710C38 /* PTRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753914201F07A2F400710C38 /* PTRView.swift */; };
+		759474D01F084A3F00D922AF /* ubuntu-b.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CD1F084A3500D922AF /* ubuntu-b.ttf */; };
+		759474D11F084A3F00D922AF /* ubuntu-bi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CC1F084A3500D922AF /* ubuntu-bi.ttf */; };
+		759474D21F084A3F00D922AF /* ubuntu-l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CE1F084A3500D922AF /* ubuntu-l.ttf */; };
+		759474D31F084A3F00D922AF /* ubuntu-li.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474C91F084A3400D922AF /* ubuntu-li.ttf */; };
+		759474D41F084A3F00D922AF /* ubuntu-m.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CA1F084A3500D922AF /* ubuntu-m.ttf */; };
+		759474D51F084A3F00D922AF /* ubuntu-mi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CF1F084A3500D922AF /* ubuntu-mi.ttf */; };
+		759474D61F084A3F00D922AF /* ubuntu-r.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474C81F084A3400D922AF /* ubuntu-r.ttf */; };
+		759474D71F084A3F00D922AF /* ubuntu-ri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CB1F084A3500D922AF /* ubuntu-ri.ttf */; };
 		75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FB11F05B844000A4983 /* AppDelegate.swift */; };
 		75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FB81F05B844000A4983 /* Assets.xcassets */; };
 		75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */; };
@@ -40,6 +53,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		753914181F079B8900710C38 /* AccountOverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewTableViewCell.swift; sourceTree = "<group>"; };
+		753914191F079B8900710C38 /* AccountOverviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountOverviewTableViewCell.xib; sourceTree = "<group>"; };
+		7539141C1F079BA100710C38 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		7539141D1F079BA100710C38 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
+		753914201F07A2F400710C38 /* PTRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTRView.swift; sourceTree = "<group>"; };
+		759474C81F084A3400D922AF /* ubuntu-r.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-r.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-r.ttf"; sourceTree = "<group>"; };
+		759474C91F084A3400D922AF /* ubuntu-li.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-li.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-li.ttf"; sourceTree = "<group>"; };
+		759474CA1F084A3500D922AF /* ubuntu-m.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-m.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-m.ttf"; sourceTree = "<group>"; };
+		759474CB1F084A3500D922AF /* ubuntu-ri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-ri.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-ri.ttf"; sourceTree = "<group>"; };
+		759474CC1F084A3500D922AF /* ubuntu-bi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-bi.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-bi.ttf"; sourceTree = "<group>"; };
+		759474CD1F084A3500D922AF /* ubuntu-b.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-b.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-b.ttf"; sourceTree = "<group>"; };
+		759474CE1F084A3500D922AF /* ubuntu-l.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-l.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-l.ttf"; sourceTree = "<group>"; };
+		759474CF1F084A3500D922AF /* ubuntu-mi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-mi.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-mi.ttf"; sourceTree = "<group>"; };
 		75F19FAE1F05B844000A4983 /* Avanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F19FB11F05B844000A4983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F19FB81F05B844000A4983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +97,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		759474C71F084A2500D922AF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				759474CD1F084A3500D922AF /* ubuntu-b.ttf */,
+				759474CC1F084A3500D922AF /* ubuntu-bi.ttf */,
+				759474CE1F084A3500D922AF /* ubuntu-l.ttf */,
+				759474C91F084A3400D922AF /* ubuntu-li.ttf */,
+				759474CA1F084A3500D922AF /* ubuntu-m.ttf */,
+				759474CF1F084A3500D922AF /* ubuntu-mi.ttf */,
+				759474C81F084A3400D922AF /* ubuntu-r.ttf */,
+				759474CB1F084A3500D922AF /* ubuntu-ri.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		75F19FA51F05B843000A4983 = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +132,14 @@
 			isa = PBXGroup;
 			children = (
 				75F19FD51F06BA1F000A4983 /* Main.storyboard */,
+				75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */,
 				75F19FE31F06CA23000A4983 /* TransactionsVC.swift */,
 				75F19FDF1F06C96E000A4983 /* PositionsVC.swift */,
 				75F19FE11F06C9EC000A4983 /* NewsListVC.swift */,
-				75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */,
 				75F19FD71F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift */,
 				75F19FB11F05B844000A4983 /* AppDelegate.swift */,
 				75F19FC81F067869000A4983 /* NavigationController.swift */,
+				759474C71F084A2500D922AF /* Fonts */,
 				75F19FD21F06B9A5000A4983 /* View Components */,
 				75F19FB81F05B844000A4983 /* Assets.xcassets */,
 				75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */,
@@ -110,10 +152,15 @@
 		75F19FD21F06B9A5000A4983 /* View Components */ = {
 			isa = PBXGroup;
 			children = (
+				753914201F07A2F400710C38 /* PTRView.swift */,
+				7539141C1F079BA100710C38 /* AccountTableViewCell.swift */,
+				7539141D1F079BA100710C38 /* AccountTableViewCell.xib */,
+				753914181F079B8900710C38 /* AccountOverviewTableViewCell.swift */,
+				753914191F079B8900710C38 /* AccountOverviewTableViewCell.xib */,
 				75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */,
+				75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */,
 				75F19FD91F06BC8D000A4983 /* PageControl.swift */,
 				75F19FDB1F06BC9B000A4983 /* PageControl.xib */,
-				75F19FD01F069134000A4983 /* OrdersAndTradesButton.xib */,
 			);
 			path = "View Components";
 			sourceTree = "<group>";
@@ -177,10 +224,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759474D31F084A3F00D922AF /* ubuntu-li.ttf in Resources */,
+				7539141B1F079B8900710C38 /* AccountOverviewTableViewCell.xib in Resources */,
 				75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */,
+				759474D51F084A3F00D922AF /* ubuntu-mi.ttf in Resources */,
+				759474D01F084A3F00D922AF /* ubuntu-b.ttf in Resources */,
 				75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */,
+				759474D61F084A3F00D922AF /* ubuntu-r.ttf in Resources */,
 				75F19FD11F069134000A4983 /* OrdersAndTradesButton.xib in Resources */,
 				75F19FD61F06BAB7000A4983 /* Main.storyboard in Resources */,
+				759474D21F084A3F00D922AF /* ubuntu-l.ttf in Resources */,
+				7539141F1F079BA100710C38 /* AccountTableViewCell.xib in Resources */,
+				759474D41F084A3F00D922AF /* ubuntu-m.ttf in Resources */,
+				759474D11F084A3F00D922AF /* ubuntu-bi.ttf in Resources */,
+				759474D71F084A3F00D922AF /* ubuntu-ri.ttf in Resources */,
 				75F19FDC1F06BC9B000A4983 /* PageControl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,9 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F19FDE1F06BD91000A4983 /* AccountOverviewVC.swift in Sources */,
+				753914211F07A2F400710C38 /* PTRView.swift in Sources */,
 				75F19FD81F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift in Sources */,
+				7539141A1F079B8900710C38 /* AccountOverviewTableViewCell.swift in Sources */,
 				75F19FE41F06CA23000A4983 /* TransactionsVC.swift in Sources */,
 				75F19FDA1F06BC8D000A4983 /* PageControl.swift in Sources */,
+				7539141E1F079BA100710C38 /* AccountTableViewCell.swift in Sources */,
 				75F19FC91F067869000A4983 /* NavigationController.swift in Sources */,
 				75F19FE01F06C96E000A4983 /* PositionsVC.swift in Sources */,
 				75F19FE21F06C9EC000A4983 /* NewsListVC.swift in Sources */,

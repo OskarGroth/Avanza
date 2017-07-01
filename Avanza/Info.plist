@@ -34,6 +34,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ubuntu-b.ttf</string>
+		<string>ubuntu-bi.ttf</string>
+		<string>ubuntu-l.ttf</string>
+		<string>ubuntu-li.ttf</string>
+		<string>ubuntu-m.ttf</string>
+		<string>ubunti-mi.ttf</string>
+		<string>ubunti-r.ttf</string>
+		<string>ubuntu-ri.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

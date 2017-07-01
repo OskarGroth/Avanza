@@ -13,6 +13,8 @@ class NavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationBar.items?.first?.rightBarButtonItem = UIBarButtonItem(customView: OrdersAndTradesButton(frame: CGRect(x: 0, y: 0, width: 70, height: 50)))
+        let font = UIFont(name: "Ubuntu-Bold", size: 18)!
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.font.rawValue: font, NSAttributedStringKey.foregroundColor.rawValue: UIColor(named: "text-color")!]
     }
 
     override func didReceiveMemoryWarning() {

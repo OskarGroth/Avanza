@@ -35,7 +35,7 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orders-and-trades-lightning" translatesAutoresizingMaskIntoConstraints="NO" id="PXu-bE-ZMD">
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt" translatesAutoresizingMaskIntoConstraints="NO" id="PXu-bE-ZMD">
                             <rect key="frame" x="35" y="16" width="12" height="18"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="12" id="SvQ-ya-Emo"/>
@@ -66,7 +66,7 @@
                 <constraint firstAttribute="trailing" secondItem="BVO-Im-7qK" secondAttribute="trailing" id="rE4-kW-wpq"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="276" y="48"/>
+            <point key="canvasLocation" x="281" y="-16"/>
         </view>
         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="gA1-xX-iQ3">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -102,9 +102,10 @@
                 <constraint firstItem="lIj-mA-xh3" firstAttribute="centerX" secondItem="N0b-tb-Avc" secondAttribute="centerX" id="Mwa-mq-vTH"/>
                 <constraint firstItem="FeH-bb-jdM" firstAttribute="centerX" secondItem="N0b-tb-Avc" secondAttribute="centerX" id="Wf3-A4-Jrs"/>
             </constraints>
+            <point key="canvasLocation" x="502" y="411"/>
         </scrollView>
     </objects>
     <resources>
-        <image name="orders-and-trades-lightning" width="24" height="36"/>
+        <image name="bolt" width="12" height="18"/>
     </resources>
 </document>

@@ -11,17 +11,15 @@ import UIKit
 class PageControl: UIPageControl {
     
     @IBOutlet var view: UIView!
-    let borders: [CALayer] = [CALayer(), CALayer()]
+    let border = CALayer()
     
     private func setup() {
         Bundle.main.loadNibNamed("PageControl", owner: self, options: nil)
         backgroundColor = UIColor(named: "background-color")
         addSubview(view)
         view.frame = self.bounds
-        for borderLayer in borders {
-            borderLayer.backgroundColor = UIColor(named: "border-color")?.cgColor
-            layer.addSublayer(borderLayer)
-        }
+        border.backgroundColor = UIColor(named: "border-color")?.cgColor
+        layer.addSublayer(border)
     }
     
     override func prepareForInterfaceBuilder() {
@@ -41,7 +39,7 @@ class PageControl: UIPageControl {
     override func layoutSubviews() {
         super.layoutSubviews()
         // Update border width
-        borders.forEach({$0.frame = CGRect(x: 0, y: borders.index(of: $0) == 0 ? 0 : bounds.height - 1, width: bounds.width, height: 1)})
+        border.frame = CGRect(x: 0, y: bounds.height - 0.5, width: bounds.width, height: 0.5)
     }
 
 }
