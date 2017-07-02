@@ -38,7 +38,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="785 395" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-DY-BwJ">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="785 395" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-DY-BwJ">
                         <rect key="frame" x="98" y="89" width="181" height="57"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="181" id="cHo-0S-6Me"/>
@@ -62,17 +62,20 @@
                             <constraint firstAttribute="width" constant="32" id="PmA-H8-nGc"/>
                         </constraints>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail" translatesAutoresizingMaskIntoConstraints="NO" id="Qg3-ig-DSF" userLabel="Arrow Image View">
-                        <rect key="frame" x="150" y="197" width="7" height="6"/>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail" translatesAutoresizingMaskIntoConstraints="NO" id="Qg3-ig-DSF" userLabel="Arrow Image 1">
+                        <rect key="frame" x="150" y="196.5" width="6" height="6"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tillgängligt för köp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyQ-2H-wjv">
-                        <rect key="frame" x="41" y="191" width="106" height="15"/>
+                        <rect key="frame" x="41" y="191" width="106" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="bye-rL-WBc"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" name="text-color"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="197 525" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpg-X6-WPJ">
-                        <rect key="frame" x="51" y="211" width="87" height="27"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="197 525" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpg-X6-WPJ">
+                        <rect key="frame" x="51" y="210.5" width="87" height="27"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="87" id="2AL-fo-fHN"/>
                             <constraint firstAttribute="height" constant="27" id="fJl-Vk-sMO"/>
@@ -88,7 +91,10 @@
                         </constraints>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Utveckling i år" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytt-3Y-99p">
-                        <rect key="frame" x="241" y="191" width="81" height="15"/>
+                        <rect key="frame" x="241" y="191" width="81" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="Ljf-eT-ioE"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" name="text-color"/>
                         <nil key="highlightedColor"/>
@@ -106,39 +112,33 @@
                             <constraint firstAttribute="height" constant="29.5" id="aYY-aK-zR0"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33,57%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asp-BB-unG">
-                        <rect key="frame" x="238" y="211" width="87" height="27"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33,57 %" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asp-BB-unG">
+                        <rect key="frame" x="238" y="210.5" width="87" height="27"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="27" id="HI5-Ym-iFf"/>
                             <constraint firstAttribute="width" constant="87" id="ksJ-5q-1Ca"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="23"/>
-                        <color key="textColor" name="text-color"/>
+                        <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail" translatesAutoresizingMaskIntoConstraints="NO" id="JIc-0s-lLa" userLabel="Arrow Image View">
-                        <rect key="frame" x="325" y="197.5" width="7" height="7"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="7" id="57M-Yq-R0N"/>
-                            <constraint firstAttribute="width" constant="7" id="a2g-hb-b0E"/>
-                        </constraints>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail" translatesAutoresizingMaskIntoConstraints="NO" id="JIc-0s-lLa" userLabel="Arrow Image 2">
+                        <rect key="frame" x="325" y="195.5" width="6" height="6"/>
                     </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="asp-BB-unG" firstAttribute="top" secondItem="ytt-3Y-99p" secondAttribute="bottom" constant="5" id="3Wx-90-TJ5"/>
+                    <constraint firstItem="Kpg-X6-WPJ" firstAttribute="top" secondItem="fyQ-2H-wjv" secondAttribute="bottom" constant="5" id="7io-3X-qy6"/>
                     <constraint firstItem="wkB-QL-Ehc" firstAttribute="top" secondItem="5gh-Oy-tov" secondAttribute="top" constant="1" id="CPR-Va-ybN"/>
-                    <constraint firstItem="57M-Gx-DqB" firstAttribute="leading" secondItem="Qg3-ig-DSF" secondAttribute="trailing" constant="51" id="Fax-Kf-mYn"/>
                     <constraint firstItem="5gh-Oy-tov" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="IfH-af-Ryi"/>
-                    <constraint firstItem="Qg3-ig-DSF" firstAttribute="bottom" secondItem="fyQ-2H-wjv" secondAttribute="bottomMargin" constant="5" id="KEm-nj-jkw"/>
-                    <constraint firstItem="Kpg-X6-WPJ" firstAttribute="top" secondItem="fyQ-2H-wjv" secondAttribute="bottom" constant="5" id="KdO-JV-29h"/>
+                    <constraint firstItem="fyQ-2H-wjv" firstAttribute="centerY" secondItem="ytt-3Y-99p" secondAttribute="centerY" id="KdO-JV-29h"/>
                     <constraint firstItem="0AW-JU-YRv" firstAttribute="top" secondItem="57M-Gx-DqB" secondAttribute="top" constant="1" id="LOQ-fE-UKD"/>
+                    <constraint firstItem="JIc-0s-lLa" firstAttribute="bottom" secondItem="ytt-3Y-99p" secondAttribute="bottomMargin" constant="4.25" id="NMF-PX-WD2"/>
                     <constraint firstItem="Kpg-X6-WPJ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="0.5" id="NpR-JQ-Jv0"/>
                     <constraint firstItem="e6Q-vv-AzF" firstAttribute="centerX" secondItem="Yo6-DY-BwJ" secondAttribute="centerX" id="RGQ-25-kjH"/>
                     <constraint firstItem="fyQ-2H-wjv" firstAttribute="top" secondItem="wkB-QL-Ehc" secondAttribute="bottom" constant="7" id="RPm-VU-SL1"/>
                     <constraint firstItem="ytt-3Y-99p" firstAttribute="centerX" secondItem="0AW-JU-YRv" secondAttribute="centerX" id="Sb6-K7-hmb"/>
                     <constraint firstItem="JIc-0s-lLa" firstAttribute="leading" secondItem="ytt-3Y-99p" secondAttribute="trailing" constant="3" id="YJd-SY-9sD"/>
-                    <constraint firstAttribute="bottom" secondItem="5gh-Oy-tov" secondAttribute="bottom" constant="5" id="Yn5-gO-nbP"/>
-                    <constraint firstItem="JIc-0s-lLa" firstAttribute="bottom" secondItem="ytt-3Y-99p" secondAttribute="topMargin" constant="5" id="Yqq-Wg-VwL"/>
                     <constraint firstItem="57M-Gx-DqB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="20" id="Zn6-5Y-h3y"/>
                     <constraint firstItem="e6Q-vv-AzF" firstAttribute="centerX" secondItem="oZr-em-JXs" secondAttribute="centerX" id="ZnI-jR-4St"/>
                     <constraint firstItem="e6Q-vv-AzF" firstAttribute="top" secondItem="oZr-em-JXs" secondAttribute="bottom" constant="10" id="aNi-5U-dXM"/>
@@ -151,7 +151,7 @@
                     <constraint firstItem="Qg3-ig-DSF" firstAttribute="leading" secondItem="fyQ-2H-wjv" secondAttribute="trailing" constant="3" id="jLo-gh-ZdR"/>
                     <constraint firstAttribute="bottomMargin" secondItem="Kpg-X6-WPJ" secondAttribute="bottom" constant="14" id="jbA-sh-P6l"/>
                     <constraint firstItem="fyQ-2H-wjv" firstAttribute="centerX" secondItem="wkB-QL-Ehc" secondAttribute="centerX" id="liM-Vh-DMc"/>
-                    <constraint firstItem="Qg3-ig-DSF" firstAttribute="top" secondItem="Yo6-DY-BwJ" secondAttribute="bottom" constant="51" id="pfW-ds-viW"/>
+                    <constraint firstItem="fyQ-2H-wjv" firstAttribute="bottom" secondItem="Qg3-ig-DSF" secondAttribute="bottom" constant="3" id="pfW-ds-viW"/>
                     <constraint firstItem="Yo6-DY-BwJ" firstAttribute="top" secondItem="e6Q-vv-AzF" secondAttribute="bottom" id="qWL-7W-hTg"/>
                     <constraint firstAttribute="bottomMargin" secondItem="asp-BB-unG" secondAttribute="bottom" constant="14" id="vHw-kZ-AWy"/>
                     <constraint firstItem="asp-BB-unG" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.5" id="x8I-Il-j6P"/>
@@ -159,7 +159,10 @@
                 </constraints>
             </tableViewCellContentView>
             <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-            <point key="canvasLocation" x="-1" y="-76"/>
+            <connections>
+                <outlet property="developmentLabel" destination="asp-BB-unG" id="Ql3-bV-8IU"/>
+            </connections>
+            <point key="canvasLocation" x="152" y="-82"/>
         </tableViewCell>
     </objects>
     <resources>

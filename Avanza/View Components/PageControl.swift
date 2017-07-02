@@ -10,16 +10,22 @@ import UIKit
 
 class PageControl: UIPageControl {
     
+    @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet var view: UIView!
     let border = CALayer()
+    let pageIndicator = CALayer()
     
     private func setup() {
         Bundle.main.loadNibNamed("PageControl", owner: self, options: nil)
         backgroundColor = UIColor(named: "background-color")
+        overviewLabel.textColor = UIColor(named: "text-selected-color")
         addSubview(view)
         view.frame = self.bounds
         border.backgroundColor = UIColor(named: "border-color")?.cgColor
         layer.addSublayer(border)
+        pageIndicator.frame = CGRect(x: overviewLabel.frame.origin.x, y: bounds.height-2, width: overviewLabel.frame.width, height: 2)
+        pageIndicator.backgroundColor = UIColor(named: "text-selected-color")?.cgColor
+        layer.addSublayer(pageIndicator)
     }
     
     override func prepareForInterfaceBuilder() {

@@ -12,6 +12,8 @@
 		7539141E1F079BA100710C38 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539141C1F079BA100710C38 /* AccountTableViewCell.swift */; };
 		7539141F1F079BA100710C38 /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7539141D1F079BA100710C38 /* AccountTableViewCell.xib */; };
 		753914211F07A2F400710C38 /* PTRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753914201F07A2F400710C38 /* PTRView.swift */; };
+		759466F71F097875008576BE /* AccountActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759466F51F097875008576BE /* AccountActionTableViewCell.swift */; };
+		759466F81F097875008576BE /* AccountActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759466F61F097875008576BE /* AccountActionTableViewCell.xib */; };
 		759474D01F084A3F00D922AF /* ubuntu-b.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CD1F084A3500D922AF /* ubuntu-b.ttf */; };
 		759474D11F084A3F00D922AF /* ubuntu-bi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CC1F084A3500D922AF /* ubuntu-bi.ttf */; };
 		759474D21F084A3F00D922AF /* ubuntu-l.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CE1F084A3500D922AF /* ubuntu-l.ttf */; };
@@ -20,6 +22,7 @@
 		759474D51F084A3F00D922AF /* ubuntu-mi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CF1F084A3500D922AF /* ubuntu-mi.ttf */; };
 		759474D61F084A3F00D922AF /* ubuntu-r.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474C81F084A3400D922AF /* ubuntu-r.ttf */; };
 		759474D71F084A3F00D922AF /* ubuntu-ri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 759474CB1F084A3500D922AF /* ubuntu-ri.ttf */; };
+		759474DF1F08F18A00D922AF /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759474DE1F08F18A00D922AF /* ClockView.swift */; };
 		75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F19FB11F05B844000A4983 /* AppDelegate.swift */; };
 		75F19FB91F05B844000A4983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FB81F05B844000A4983 /* Assets.xcassets */; };
 		75F19FBC1F05B844000A4983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */; };
@@ -58,6 +61,8 @@
 		7539141C1F079BA100710C38 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
 		7539141D1F079BA100710C38 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
 		753914201F07A2F400710C38 /* PTRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTRView.swift; sourceTree = "<group>"; };
+		759466F51F097875008576BE /* AccountActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActionTableViewCell.swift; sourceTree = "<group>"; };
+		759466F61F097875008576BE /* AccountActionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountActionTableViewCell.xib; sourceTree = "<group>"; };
 		759474C81F084A3400D922AF /* ubuntu-r.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-r.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-r.ttf"; sourceTree = "<group>"; };
 		759474C91F084A3400D922AF /* ubuntu-li.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-li.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-li.ttf"; sourceTree = "<group>"; };
 		759474CA1F084A3500D922AF /* ubuntu-m.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-m.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-m.ttf"; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 		759474CD1F084A3500D922AF /* ubuntu-b.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-b.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-b.ttf"; sourceTree = "<group>"; };
 		759474CE1F084A3500D922AF /* ubuntu-l.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-l.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-l.ttf"; sourceTree = "<group>"; };
 		759474CF1F084A3500D922AF /* ubuntu-mi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ubuntu-mi.ttf"; path = "../../../Downloads/Ubuntu-FontZillion/Fonts/ubuntu-mi.ttf"; sourceTree = "<group>"; };
+		759474DE1F08F18A00D922AF /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		75F19FAE1F05B844000A4983 /* Avanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F19FB11F05B844000A4983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F19FB81F05B844000A4983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +118,19 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		759474E01F09045C00D922AF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */,
+				75F19FE31F06CA23000A4983 /* TransactionsVC.swift */,
+				75F19FDF1F06C96E000A4983 /* PositionsVC.swift */,
+				75F19FE11F06C9EC000A4983 /* NewsListVC.swift */,
+				75F19FD71F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift */,
+				75F19FC81F067869000A4983 /* NavigationController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		75F19FA51F05B843000A4983 = {
 			isa = PBXGroup;
 			children = (
@@ -132,15 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				75F19FD51F06BA1F000A4983 /* Main.storyboard */,
-				75F19FDD1F06BD91000A4983 /* AccountOverviewVC.swift */,
-				75F19FE31F06CA23000A4983 /* TransactionsVC.swift */,
-				75F19FDF1F06C96E000A4983 /* PositionsVC.swift */,
-				75F19FE11F06C9EC000A4983 /* NewsListVC.swift */,
-				75F19FD71F06BB14000A4983 /* AccountsAndPossessionsPagedVC.swift */,
 				75F19FB11F05B844000A4983 /* AppDelegate.swift */,
-				75F19FC81F067869000A4983 /* NavigationController.swift */,
-				759474C71F084A2500D922AF /* Fonts */,
+				759474E01F09045C00D922AF /* View Controllers */,
 				75F19FD21F06B9A5000A4983 /* View Components */,
+				759474C71F084A2500D922AF /* Fonts */,
 				75F19FB81F05B844000A4983 /* Assets.xcassets */,
 				75F19FBA1F05B844000A4983 /* LaunchScreen.storyboard */,
 				75F19FBD1F05B844000A4983 /* Info.plist */,
@@ -152,9 +166,12 @@
 		75F19FD21F06B9A5000A4983 /* View Components */ = {
 			isa = PBXGroup;
 			children = (
+				759474DE1F08F18A00D922AF /* ClockView.swift */,
 				753914201F07A2F400710C38 /* PTRView.swift */,
 				7539141C1F079BA100710C38 /* AccountTableViewCell.swift */,
 				7539141D1F079BA100710C38 /* AccountTableViewCell.xib */,
+				759466F51F097875008576BE /* AccountActionTableViewCell.swift */,
+				759466F61F097875008576BE /* AccountActionTableViewCell.xib */,
 				753914181F079B8900710C38 /* AccountOverviewTableViewCell.swift */,
 				753914191F079B8900710C38 /* AccountOverviewTableViewCell.xib */,
 				75F19FCE1F068504000A4983 /* OrdersAndTradesButton.swift */,
@@ -237,6 +254,7 @@
 				7539141F1F079BA100710C38 /* AccountTableViewCell.xib in Resources */,
 				759474D41F084A3F00D922AF /* ubuntu-m.ttf in Resources */,
 				759474D11F084A3F00D922AF /* ubuntu-bi.ttf in Resources */,
+				759466F81F097875008576BE /* AccountActionTableViewCell.xib in Resources */,
 				759474D71F084A3F00D922AF /* ubuntu-ri.ttf in Resources */,
 				75F19FDC1F06BC9B000A4983 /* PageControl.xib in Resources */,
 			);
@@ -255,10 +273,12 @@
 				7539141A1F079B8900710C38 /* AccountOverviewTableViewCell.swift in Sources */,
 				75F19FE41F06CA23000A4983 /* TransactionsVC.swift in Sources */,
 				75F19FDA1F06BC8D000A4983 /* PageControl.swift in Sources */,
+				759466F71F097875008576BE /* AccountActionTableViewCell.swift in Sources */,
 				7539141E1F079BA100710C38 /* AccountTableViewCell.swift in Sources */,
 				75F19FC91F067869000A4983 /* NavigationController.swift in Sources */,
 				75F19FE01F06C96E000A4983 /* PositionsVC.swift in Sources */,
 				75F19FE21F06C9EC000A4983 /* NewsListVC.swift in Sources */,
+				759474DF1F08F18A00D922AF /* ClockView.swift in Sources */,
 				75F19FB21F05B844000A4983 /* AppDelegate.swift in Sources */,
 				75F19FCF1F068504000A4983 /* OrdersAndTradesButton.swift in Sources */,
 			);

@@ -24,7 +24,6 @@ class AccountsAndPossessionsPagedVC: UIPageViewController, UIPageViewControllerD
         super.viewDidLoad()
         dataSource = self
         setViewControllers([orderedViewControllers.first!], direction: .forward, animated: true, completion: nil)
-        scrollView.backgroundColor = UIColor.red.withAlphaComponent(0.2)
         scrollView.superview?.addSubview(pageControl)
     }
     

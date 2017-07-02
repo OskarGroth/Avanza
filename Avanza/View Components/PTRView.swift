@@ -10,12 +10,15 @@ import UIKit
 
 class PTRView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet weak var clockView: ClockView!
+    @IBOutlet weak var updatedLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        let str = NSMutableAttributedString(string: "Senast uppdaterad 16:49:24", attributes: [.font: UIFont(name: "Ubuntu", size: 12)!])
+        str.addAttribute(.font, value: UIFont(name: "Ubuntu-Medium", size: 12)!, range: NSRange(location:18,length:8))
+        updatedLabel.attributedText = str
+        updatedLabel.textColor = UIColor(named: "text-color")
     }
-    */
 
 }

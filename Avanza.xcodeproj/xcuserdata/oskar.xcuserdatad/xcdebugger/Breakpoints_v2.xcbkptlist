@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Avanza/View Components/AccountOverviewTableViewCell.swift"
-            timestampString = "520639903.188772"
+            filePath = "Avanza/View Components/ClockView.swift"
+            timestampString = "520719689.189137"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "awakeFromNib()"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "rotate(degree:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
